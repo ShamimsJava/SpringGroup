@@ -10,3 +10,7 @@
 6. Value Pass Within P Namespace
 7. Value Pass Within C NameSpace
 8. Simple Example Of Bean Scope
+9. Simple Example Bean Init and Destroy Method
+10. Example of Factory Method and Factory Class
+11. Example of Wiring List
+12. Example of Bean List

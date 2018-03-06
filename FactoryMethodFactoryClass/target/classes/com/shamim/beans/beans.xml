@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="employee" class="com.shamim.code.Employee"
+		factory-method="factoryMethod">
+		<constructor-arg name="id" value="123"></constructor-arg>
+		<constructor-arg name="name" value="Sohan"></constructor-arg>
+	</bean>
+
+	<bean id="employee2" class="com.shamim.code.Employee"
+		factory-bean="factoryClass" factory-method="fClassFactory">
+		<constructor-arg name="id" value="456"></constructor-arg>
+		<constructor-arg name="name" value="Parvez"></constructor-arg>
+	</bean>
+
+	<bean id="factoryClass" class="com.shamim.code.FactoryClass"></bean>
+</beans>

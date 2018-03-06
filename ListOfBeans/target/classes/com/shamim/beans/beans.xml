@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	
+	<bean id="employee" class="com.shamim.code.Employee">
+		<property name="add">
+			<list>
+				<ref bean="address1" />
+				<ref bean="address2" />
+				<ref bean="address3" />
+			</list>
+		</property>
+	</bean>
+
+
+	<bean id="address1" class="com.shamim.code.Address">
+		<property name="name" value="parvez"></property>
+		<property name="number" value="123"></property>
+	</bean>
+	
+	<bean id="address2" class="com.shamim.code.Address">
+		<property name="name" value="sohan"></property>
+		<property name="number" value="12"></property>
+	</bean>
+	
+	<bean id="address3" class="com.shamim.code.Address">
+		<property name="name" value="shamim"></property>
+		<property name="number" value="23"></property>
+	</bean>
+</beans>

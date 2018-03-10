@@ -14,3 +14,8 @@
 10. Example of Factory Method and Factory Class
 11. Example of Wiring List
 12. Example of Bean List
+
+13. Example of Inner Bean
+14. Example of Maps
+15. Example of setting null point
+16. Example of autowiring by type

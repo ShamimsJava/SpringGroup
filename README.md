@@ -18,4 +18,10 @@
 13. Example of Inner Bean
 14. Example of Maps
 15. Example of setting null point
+
 16. Example of autowiring by type
+17. Example of autowiring by name
+18. Example of autowiring by constructor
+19. Example of autowiring by default
+20. Example of autowiring by annotation
+

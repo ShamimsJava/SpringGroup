@@ -25,3 +25,5 @@
 19. Example of autowiring by default
 20. Example of autowiring by annotation
 21. Example of introduction of SPEL
+22. Dynamic web page, mavenize
+23. JNDI connection
